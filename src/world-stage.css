@@ -1,0 +1,158 @@
+/* World-specific dioramas and the new illustrated account entry. */
+.world-stage {position:relative;isolation:isolate;overflow:hidden;min-width:0;height:268px;margin:25px 0 30px;border:1px solid color-mix(in srgb,var(--stage-accent) 35%,#313c4b);border-radius:12px;background:#0c1722;color:#eff2ed;box-shadow:inset 0 0 80px #04070b70;font-family:Satoshi,Arial,sans-serif;}
+.world-stage-backdrop {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:.15;filter:saturate(.65);z-index:-4;}
+.world-stage-wash {position:absolute;inset:0;background:linear-gradient(90deg,#0a121eef,#0c1722c9 35%,#0c172246 70%,#0c172286),radial-gradient(ellipse at 76% 40%,color-mix(in srgb,var(--stage-secondary) 24%,transparent),transparent 65%);z-index:-3;}
+.world-stage-grid {position:absolute;inset:0;background-image:linear-gradient(#ffffff05 1px,transparent 1px),linear-gradient(90deg,#ffffff05 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,transparent 35%,#000);z-index:-2;}
+.world-stage-canvas {position:absolute;inset:0;display:block;width:100%;height:100%;opacity:0;transition:opacity .7s;z-index:-1;}
+.world-stage.scene-ready .world-stage-canvas {opacity:1;}
+.world-stage-copy {position:absolute;left:30px;top:35px;max-width:43%;pointer-events:none;}
+.world-stage-copy>span {font-size:8px;letter-spacing:1.5px;line-height:1.6;display:block;color:color-mix(in srgb,var(--stage-accent) 35%,#f4dfb6);max-width:37ch;}
+.world-stage-copy h2 {font-family:'Clash Display',sans-serif;font-weight:500;font-size:30px;letter-spacing:-.8px;line-height:1.1;margin:15px 0 12px;max-width:16ch;color:#f1f1ec;}
+.world-stage-copy p {font-size:11px;line-height:1.7;color:#bdc9d4;max-width:32ch;}
+.world-stage-caption {position:absolute;bottom:16px;left:30px;display:flex;align-items:center;gap:9px;max-width:70%;font-size:8px;letter-spacing:1px;color:#94a5b5;}
+.world-stage-caption .anime-emblem {width:18px;height:18px;color:#cbb795;}
+.world-stage-toggle {position:absolute;right:17px;bottom:14px;display:flex;gap:6px;align-items:center;font-size:8px;color:#c5cfda;min-height:32px;padding:7px 10px;border:1px solid #ffffff26;border-radius:20px;background:#0b172389;backdrop-filter:blur(8px);z-index:5;}
+.world-stage-toggle:hover {border-color:#f4d4a9;color:#fff;}
+.world-stage-toggle:focus-visible {outline:2px solid #f5c595;outline-offset:4px;}
+.world-stage-fallback {position:absolute;right:16%;top:50%;translate:0 -50%;color:color-mix(in srgb,var(--stage-accent) 70%,#fff);opacity:.5;transition:opacity .7s;}
+.world-stage-fallback>.anime-emblem {width:120px;height:120px;filter:drop-shadow(0 0 28px var(--stage-secondary));}
+.world-stage.scene-ready .world-stage-fallback {opacity:0;pointer-events:none;}
+.daily-stamp>.anime-emblem {width:70px;height:70px;display:block;margin:auto;color:var(--world);}
+.daily-stamp>span {font-size:8px;letter-spacing:1px;}
+.daily-note>.anime-emblem {width:45px;height:45px;display:block;justify-self:end;color:var(--world);opacity:.6;}
+.scene-caption .anime-emblem,.focus-footnote .anime-emblem {width:14px;height:14px;vertical-align:middle;}
+.demo-top .anime-emblem {width:15px;height:15px;vertical-align:middle;margin-right:4px;}
+.simple-header i .anime-emblem {width:20px;height:20px;vertical-align:middle;}
+
+/* Portrait source stays crisp; the dark overlay supports readable HTML copy. */
+.auth-page {font-family:Satoshi,Arial,sans-serif;display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);min-height:100svh;background:var(--paper);}
+.auth-art {position:sticky;top:0;height:100svh;min-height:680px;max-height:1100px;overflow:hidden;isolation:isolate;color:#f3eee6;background:#0b111b;}
+.auth-art>.world-stage-auth {position:absolute;inset:0;width:100%;height:100%;margin:0;border:0;border-radius:0;box-shadow:none;}
+.world-stage-auth .world-stage-backdrop {opacity:.72;filter:saturate(.9) contrast(1.06);object-fit:cover;object-position:center 24%;}
+.world-stage-auth .world-stage-wash {background:linear-gradient(0deg,#060d18f5 0%,#08101cc9 25%,#08101c50 65%,#08101c40),linear-gradient(90deg,#08101c30,transparent 50%,#0b101d65);}
+.world-stage-auth .world-stage-grid {opacity:.55;mask-image:linear-gradient(transparent,#000);}
+.world-stage-auth .world-stage-canvas {z-index:0;opacity:0;}
+.world-stage-auth.scene-ready .world-stage-canvas {opacity:.8;}
+.world-stage-auth .world-stage-fallback {top:33%;right:50%;translate:50% -50%;opacity:.32;}
+.world-stage-auth.scene-ready .world-stage-fallback {opacity:0;}
+.world-stage-auth .world-stage-toggle {top:32px;right:27px;bottom:auto;font-size:9px;}
+.auth-art>.brand {position:absolute;left:34px;top:31px;color:#f2efe7!important;font-size:23px;z-index:6;}
+.auth-art>.brand .brand-mark {width:33px;height:33px;}
+.auth-art-copy {position:absolute;bottom:39px;left:36px;right:30px;z-index:3;pointer-events:none;}
+.auth-art-copy .eyebrow {font-family:Satoshi,sans-serif;font-size:8px;line-height:1.8;letter-spacing:1.6px;color:#ccd4db;margin-bottom:19px;}
+.auth-art h1 {font-family:'Clash Display',sans-serif;font-size:clamp(46px,5.25vw,86px);font-weight:500;letter-spacing:-2px;line-height:1.04;color:#f3eee7;text-wrap:balance;}
+.auth-art h1 em {font-style:normal;color:#f4b68e;}
+.auth-world-tag {display:flex;align-items:center;gap:12px;padding-top:22px;margin-top:25px;border-top:1px solid #ffffff2d;}
+.auth-world-tag>.anime-emblem {width:33px;height:33px;color:#e3c298;}
+.auth-world-tag>span {font-size:12px;font-weight:500;line-height:1.5;color:#f1eee8;}
+.auth-world-tag small {display:block;font-size:7px;font-weight:400;letter-spacing:1.5px;color:#8c9aa8;margin-top:4px;}
+.auth-form-wrap {padding:33px clamp(30px,5vw,84px);justify-content:flex-start;min-height:100svh;}
+.auth-form-wrap>.appearance-toggle {position:absolute;right:25px;top:22px;}
+.auth-form-wrap>.back-link {margin:6px 0 55px;font-size:11px;min-height:30px;display:flex;align-items:center;}
+.auth-form {max-width:420px;margin:auto;}
+.auth-form>.eyebrow {font-size:9px;letter-spacing:1.8px;}
+.auth-form h2 {font-family:'Clash Display',sans-serif;font-weight:500;letter-spacing:-1.2px;font-size:clamp(31px,3.4vw,49px);line-height:1.12;margin:20px 0;}
+.auth-form>p {font-size:13px;line-height:1.8;margin-bottom:25px;}
+.auth-form>.button,.auth-form form>.button {font-family:Satoshi,sans-serif;font-size:13px;min-height:49px;border-radius:4px;box-shadow:none;}
+.auth-form form>label {font-size:10px;letter-spacing:1px;}
+.auth-form form>label input {font-size:13px;min-height:49px;border-radius:4px;}
+.auth-form .auth-availability {font-size:11px;line-height:1.75;}
+.auth-form .local-choice {align-items:stretch;padding-top:23px;margin-top:24px;gap:9px;}
+.local-choice>span {text-align:center;font-size:11px;}
+.auth-form .local-choice .button {min-height:46px;justify-content:center;background:var(--ink);color:var(--paper);border-radius:4px;font-size:12px;box-shadow:none;}
+.auth-form .local-choice small {font-size:10px;}
+.auth-form .auth-caption {font-family:Satoshi,sans-serif;font-style:normal;font-size:11px;opacity:.75;margin:23px 0 0;}
+.auth-bottom {margin-top:36px;margin-bottom:0;align-items:center;}
+.auth-bottom>.anime-emblem {width:18px;height:18px;color:var(--world);}
+@media(max-width:1000px){
+ .world-stage {height:252px;}
+ .world-stage-copy {left:24px;top:30px;max-width:43%;}
+ .world-stage-copy h2 {font-size:26px;max-width:14ch;}
+ .world-stage-caption {left:24px;}
+ .world-stage-copy p {font-size:10px;max-width:25ch;}
+ .auth-form-wrap {padding-inline:30px;}
+ .auth-art-copy {left:28px;right:25px;bottom:35px;}
+ .auth-art h1 {font-size:48px;}
+ .auth-art>.brand {left:28px;top:28px;font-size:20px;}
+ .world-stage-auth .world-stage-toggle {right:18px;top:75px;}
+}
+@media(max-width:739px){
+ .world-stage {height:252px;margin-top:24px;border-radius:10px;}
+ .world-stage-copy {left:20px;top:28px;max-width:47%;}
+ .world-stage-copy>span {font-size:7px;letter-spacing:.9px;line-height:1.7;max-width:27ch;}
+ .world-stage-copy h2 {font-size:25px;letter-spacing:-.7px;max-width:11ch;margin-top:14px;}
+ .world-stage-copy p {font-size:10px;line-height:1.75;max-width:23ch;}
+ .world-stage-caption {bottom:16px;left:20px;max-width:60%;font-size:7px;letter-spacing:.5px;}
+ .world-stage-toggle {bottom:13px;right:12px;}
+ .world-stage-toggle span {display:none;}
+ .world-stage-fallback {right:8%;}
+ .world-stage-fallback>.anime-emblem {width:90px;height:90px;}
+ .auth-page {display:flex;flex-direction:column;}
+ .auth-art {position:relative;height:410px;min-height:410px;max-height:none;}
+ .auth-art>.brand {display:flex;left:24px;top:24px;font-size:21px;}
+ .auth-art-copy {left:24px;right:24px;bottom:25px;}
+ .auth-art-copy .eyebrow {font-size:7px;letter-spacing:1.4px;margin-bottom:12px;}
+ .auth-art h1 {font-size:42px;line-height:1.03;letter-spacing:-1.5px;max-width:300px;}
+ .auth-art h1 br:nth-child(2) {display:none;}
+ .auth-art h1 em:before {content:' ';}
+ .auth-world-tag {margin-top:16px;padding-top:13px;gap:9px;}
+ .auth-world-tag>.anime-emblem {width:24px;height:24px;}
+ .auth-world-tag>span {font-size:10px;}
+ .auth-world-tag small {font-size:6px;}
+ .world-stage-auth .world-stage-backdrop {object-position:center 30%;}
+ .world-stage-auth .world-stage-toggle {top:23px;right:23px;}
+ .auth-form-wrap {position:relative;min-height:650px;padding:28px 24px 35px;}
+ .auth-form-wrap>.appearance-toggle {top:19px;right:20px;}
+ .auth-form-wrap>.back-link {font-size:10px;margin-bottom:35px;}
+ .auth-form {max-width:420px;margin:auto;}
+ .auth-form h2 {font-size:34px;}
+ .auth-form>p {font-size:13px;}
+}
+@media(prefers-reduced-motion:reduce){.world-stage-canvas,.world-stage-fallback {transition:none;}.world-stage-canvas{display:none;}}
+/* Illustrated scene correction: actual series key art, never proxy models. */
+.world-stage-illustrated .world-stage-backdrop {opacity:.4;object-fit:cover;filter:saturate(.9);}
+.world-stage-ambient {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.28;z-index:-4;pointer-events:none;}
+.world-stage-illustrated .world-stage-wash {background:linear-gradient(90deg,#09131ef5 0%,#0a1622df 35%,#0b172276 65%,#0c172250),linear-gradient(0deg,#09131ecc,transparent 45%);}
+.world-stage-visual {position:absolute;right:3%;top:5%;width:43%;height:90%;display:flex;align-items:center;justify-content:center;z-index:-1;}
+.world-stage-keyart {width:100%;height:100%;object-fit:contain;object-position:center;filter:drop-shadow(0 8px 20px #0007);border-radius:3px;}
+.world-stage-illustrated .world-stage-canvas {z-index:0;pointer-events:none;opacity:0;}
+.world-stage-illustrated.scene-ready .world-stage-canvas {opacity:.65;}
+.world-stage-copy {z-index:2;}
+.world-stage-voyage.voyage-scene {height:252px;background:linear-gradient(170deg,#111a30,#263c5c 65%,#1c6875);}
+.world-stage-voyage .voyage-ship {width:250px;height:210px;right:9%;bottom:10px;}
+.world-stage-voyage .voyage-copy {left:30px;top:30px;}
+.world-stage-voyage .voyage-copy strong {font:500 30px/1.15 'Clash Display',sans-serif;letter-spacing:-.6px;}
+.world-stage-voyage .voyage-copy>.eyebrow {color:#ffd36b;font-size:9px;}
+.world-stage-voyage .voyage-copy>span:last-child {font-size:12px;}
+.world-stage-voyage .world-stage-toggle {z-index:7;}
+.world-stage[data-motion='off'] .voyage-ship,.world-stage[data-motion='off'] .voyage-wave {animation:none;}
+.world-stage-auth .world-stage-backdrop {opacity:.85;filter:saturate(1);}
+@media(max-width:739px){.world-stage-visual{right:1%;width:46%;top:8%;height:84%;}.world-stage-voyage .voyage-ship{width:170px;height:180px;right:-6px;bottom:10px;}.world-stage-voyage .voyage-copy{left:20px;top:27px;}.world-stage-voyage .voyage-copy strong{font-size:25px;max-width:180px;}.world-stage-voyage .voyage-copy>span:last-child{font-size:10px;max-width:150px;}.world-stage-voyage.voyage-scene{height:252px;}}
+/* Art is composited into the scene, without framing it as a floating card. */
+.world-stage-artwork {right:-1%;top:-2%;height:104%;width:55%;}
+.world-stage-artwork .world-stage-keyart {object-fit:contain;border-radius:0;mask-image:linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent),linear-gradient(0deg,transparent,#000 10%,#000 92%,transparent);mask-composite:intersect;filter:drop-shadow(-10px 3px 15px #0006);}
+.world-stage-illustrated[data-world-id='golden-kamuy'] .world-stage-keyart {mix-blend-mode:screen;}
+.world-stage-illustrated[data-world-id='frieren'] {background:linear-gradient(120deg,#0a1a1b,#244936);}
+.world-stage-illustrated[data-world-id='demon-slayer'] {background:linear-gradient(130deg,#0a1621,#123d4e);}
+.world-stage-illustrated[data-world-id='solo-leveling'] {background:linear-gradient(130deg,#090f20,#271a4a);}
+.world-stage-illustrated[data-world-id='naruto'],.world-stage-illustrated[data-world-id='naruto-shippuden'] {background:linear-gradient(130deg,#16192b,#683f30);}
+.world-stage-illustrated .world-stage-ambient {opacity:.45;}
+.world-stage-racer {position:absolute;right:-1%;top:0;bottom:0;width:52%;height:100%;overflow:visible;z-index:1;pointer-events:none;}
+.world-stage-racer .world-stage-keyart {position:absolute;bottom:14px;right:-5px;width:340px;max-width:none;height:auto;object-fit:initial;clip-path:polygon(9% 70%,28% 69%,40% 72%,48% 75%,60% 77%,76% 80%,81% 85%,83% 92%,78% 95%,28% 96%,22% 95%,19% 92%,6% 89%,0% 85%,0% 79%,3% 76%);filter:drop-shadow(0 5px 5px #0008);animation:racer-suspension .35s ease-in-out infinite alternate;}
+.world-stage-road {position:absolute;bottom:0;right:0;width:55%;height:36%;background:linear-gradient(170deg,transparent,#0b1420 45%,#1c2433);transform:perspective(180px) rotateX(24deg);transform-origin:bottom;z-index:0;overflow:hidden;}
+.world-stage-road i {position:absolute;left:0;bottom:20%;height:2px;width:90%;background:linear-gradient(90deg,transparent,#d7bd7966,transparent);animation:road-motion 1s linear infinite;}
+.world-stage-road i:nth-child(2){bottom:45%;animation-delay:-.25s;}.world-stage-road i:nth-child(3){bottom:65%;animation-delay:-.5s;}.world-stage-road i:nth-child(4){bottom:85%;animation-delay:-.75s;}
+@keyframes racer-suspension{to{translate:0 1px;}}
+@keyframes road-motion{from{translate:80% 0;}to{translate:-100% 0;}}
+.world-stage[data-motion='off'] .world-stage-keyart,.world-stage[data-motion='off'] .world-stage-road i {animation:none;}
+@media(max-width:739px){.world-stage-racer .world-stage-keyart{width:265px;right:-25px;bottom:22px;}.world-stage-racer{width:50%;}.world-stage-artwork{width:56%;right:-3%;height:100%;top:0;}}
+@media(prefers-reduced-motion:reduce){.world-stage-racer .world-stage-keyart,.world-stage-road i{animation:none;}}
+.world-stage-character {right:1%;top:3%;width:49%;height:94%;z-index:1;pointer-events:none;}
+.world-stage-character .world-stage-cutout-art {width:100%;height:100%;overflow:visible;mask-image:none;filter:drop-shadow(-8px 7px 10px #0006);animation:illustrated-breeze 8s ease-in-out infinite alternate;}
+@keyframes illustrated-breeze{to{translate:0 -3px;}}
+.world-stage-caption {z-index:3;}
+@media(max-width:739px){.world-stage-character{width:49%;right:-2%;height:86%;top:9%;}}
+@media(prefers-reduced-motion:reduce){.world-stage-character .world-stage-cutout-art{animation:none;}}
+.world-stage-character .world-stage-transparent-art {width:100%;height:100%;object-fit:contain;mask-image:none;filter:drop-shadow(-9px 7px 12px #0005);animation:illustrated-breeze 8s ease-in-out infinite alternate;}
+.world-stage[data-motion='off'] .world-stage-transparent-art {animation:none;}
+@media(prefers-reduced-motion:reduce){.world-stage-character .world-stage-transparent-art{animation:none;}}

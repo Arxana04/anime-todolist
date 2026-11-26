@@ -1,0 +1,13 @@
+/* Decorative anime motifs have explicit sizes in app controls and reminders. */
+.workspace-app .dashboard-main::before {content:none;display:none;}
+.workspace-app .current-world>.anime-emblem {width:23px;height:23px;color:var(--world);}
+.workspace-app .app-topbar .anime-emblem {width:23px;height:23px;}
+.workspace-app .daily-stamp>.anime-emblem {width:47px;height:47px;margin-bottom:7px;stroke-width:2;}
+.workspace-app .daily-stamp>span {font-size:6px;letter-spacing:.8px;text-align:center;}
+.workspace-app .scene-caption .anime-emblem {width:16px;height:16px;margin-right:4px;}
+.workspace-app .focus-footnote>.anime-emblem {width:16px;height:16px;flex-shrink:0;}
+.workspace-app .tasks-empty .empty-mark>.anime-emblem {width:35px;height:35px;}
+.workspace-app .daily-note>.anime-emblem {position:absolute;right:5px;bottom:9px;width:38px;height:38px;opacity:.55;color:var(--world);}
+.simple-header>span>i>.anime-emblem {width:20px;height:20px;}
+.settings-page .button>.anime-emblem {width:18px;height:18px;}
+@media(max-width:739px){.workspace-app .daily-note>.anime-emblem{width:32px;height:32px;right:2px;bottom:3px;}}

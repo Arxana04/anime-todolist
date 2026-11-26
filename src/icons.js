@@ -12,7 +12,6 @@ const paths = {
   home: "m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z",
   calendar: "M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14H3V6a2 2 0 0 1 2-2Z",
   list: "M9 6h12M9 12h12M9 18h12M3 6h.01M3 12h.01M3 18h.01",
-  spark: "m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z",
   clock: "M12 6v6l4 2M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0Z",
   settings:
     "M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0-6 2 3 4-.5.5 4L22 12l-3.5 3.5-.5 4-4-.5-2 3-2-3-4 .5-.5-4L2 12l3.5-3.5.5-4 4 .5 2-3Z",
@@ -29,5 +28,5 @@ const paths = {
     "M2 12h20M12 2c6 6 6 14 0 20-6-6-6-14 0-20ZM22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0Z",
 };
 export const icon = (name, cls = "") =>
-  `<svg class="icon ${cls}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name] || paths.spark}"/></svg>`;
+  `<svg class="icon ${cls}" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[name] || paths.globe}"/></svg>`;
 export const mark = () => `<span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M9 37 22 9h7L16 37Z" fill="#ff705a"/><path d="m27 9 13 28H28l-4-9 6-1-4-10Z" fill="#ffd36b"/><path d="m15 27 7 7 15-17" stroke="#f8f4ed" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="m39 4 1.5 4.5L45 10l-4.5 1.5L39 16l-1.5-4.5L33 10l4.5-1.5Z" fill="#ff705a"/></svg></span>`;

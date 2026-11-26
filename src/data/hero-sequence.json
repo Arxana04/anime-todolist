@@ -1,7 +1,12 @@
 {
-  "ready": false,
-  "provider": "Google Flow / Nano Banana Pro + Veo 3.1 Quality",
-  "poster": "/media/hero/end_frame.jpg",
-  "count": 0,
-  "prefix": "/frames/frame_"
+  "ready": true,
+  "source": "User-supplied Anime.mp4",
+  "poster": "/media/journey/city.webp",
+  "staticPoster": "/media/journey/sanctuary.webp",
+  "count": 239,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "prefix": "/media/journey/frames/frame_",
+  "extension": "webp"
 }

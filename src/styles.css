@@ -820,7 +820,7 @@ button {
   overflow: hidden;
 }
 .featured-copy:after {
-  content: "✳";
+  content: none;
   position: absolute;
   right: -20px;
   top: -38px;

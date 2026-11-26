@@ -1,0 +1,22 @@
+{
+  "golden-kamuy": {
+    "src": "/media/anime/golden-kamuy/foreground-v1.png",
+    "width": 1055,
+    "height": 1491,
+    "derivedFrom": "/media/anime/golden-kamuy/poster.jpg",
+    "provider": "Built-in image_gen",
+    "kind": "AI-assisted background extraction",
+    "alphaPng": true,
+    "bytes": 1574737
+  },
+  "frieren": {
+    "src": "/media/anime/frieren/foreground-v1.png",
+    "width": 1058,
+    "height": 1487,
+    "derivedFrom": "/media/anime/frieren/poster.jpg",
+    "provider": "Built-in image_gen",
+    "kind": "AI-assisted background extraction",
+    "alphaPng": true,
+    "bytes": 1094153
+  }
+}

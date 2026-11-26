@@ -1,0 +1,642 @@
+{
+  "frieren": {
+    "poster": {
+      "width": 460,
+      "height": 649
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "golden-kamuy": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "fire-force": {
+    "poster": {
+      "width": 460,
+      "height": 690
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "fate-strange-fake": {
+    "poster": {
+      "width": 460,
+      "height": 673
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "cheat-skill-another-world": {
+    "poster": {
+      "width": 460,
+      "height": 649
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "one-piece": {
+    "poster": {
+      "width": 460,
+      "height": 690
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "mf-ghost": {
+    "poster": {
+      "width": 460,
+      "height": 656
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "trigun-stampede": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "jujutsu-kaisen": {
+    "poster": {
+      "width": 460,
+      "height": 643
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "my-hero-academia": {
+    "poster": {
+      "width": 460,
+      "height": 653
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "to-your-eternity": {
+    "poster": {
+      "width": 460,
+      "height": 651
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "slime": {
+    "poster": {
+      "width": 460,
+      "height": 652
+    },
+    "scene": {
+      "width": 1900,
+      "height": 396
+    }
+  },
+  "solo-leveling": {
+    "poster": {
+      "width": 460,
+      "height": 609
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "classroom-of-the-elite": {
+    "poster": {
+      "width": 460,
+      "height": 716
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "apothecary-diaries": {
+    "poster": {
+      "width": 460,
+      "height": 653
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "black-clover": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "dr-stone": {
+    "poster": {
+      "width": 460,
+      "height": 679
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "haikyu": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "demon-slayer": {
+    "poster": {
+      "width": 460,
+      "height": 639
+    },
+    "scene": {
+      "width": 1800,
+      "height": 550
+    }
+  },
+  "dragon-ball-z": {
+    "poster": {
+      "width": 460,
+      "height": 690
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "gachiakuta": {
+    "poster": {
+      "width": 460,
+      "height": 598
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "beginning-after-end": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "mushoku-tensei": {
+    "poster": {
+      "width": 460,
+      "height": 647
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "naruto-shippuden": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1721,
+      "height": 391
+    }
+  },
+  "tsukimichi": {
+    "poster": {
+      "width": 460,
+      "height": 648
+    },
+    "scene": {
+      "width": 1900,
+      "height": 401
+    }
+  },
+  "shield-hero": {
+    "poster": {
+      "width": 460,
+      "height": 698
+    },
+    "scene": {
+      "width": 1500,
+      "height": 500
+    }
+  },
+  "blue-lock": {
+    "poster": {
+      "width": 460,
+      "height": 644
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "rezero": {
+    "poster": {
+      "width": 460,
+      "height": 632
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "fairy-tail": {
+    "poster": {
+      "width": 230,
+      "height": 345
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "your-lie-in-april": {
+    "poster": {
+      "width": 460,
+      "height": 658
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "jojos-bizarre-adventure": {
+    "poster": {
+      "width": 460,
+      "height": 690
+    },
+    "scene": {
+      "width": 1720,
+      "height": 500
+    }
+  },
+  "shangri-la-frontier": {
+    "poster": {
+      "width": 460,
+      "height": 649
+    },
+    "scene": {
+      "width": 1900,
+      "height": 487
+    }
+  },
+  "iruma-kun": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 600
+    }
+  },
+  "spy-family": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "dragon-ball-super": {
+    "poster": {
+      "width": 460,
+      "height": 658
+    },
+    "scene": {
+      "width": 1500,
+      "height": 316
+    }
+  },
+  "soul-eater": {
+    "poster": {
+      "width": 460,
+      "height": 690
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "my-dress-up-darling": {
+    "poster": {
+      "width": 460,
+      "height": 648
+    },
+    "scene": {
+      "width": 1900,
+      "height": 401
+    }
+  },
+  "sword-art-online": {
+    "poster": {
+      "width": 460,
+      "height": 652
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "horimiya": {
+    "poster": {
+      "width": 460,
+      "height": 669
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "kaiju-no-8": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 401
+    }
+  },
+  "tokyo-ghoul": {
+    "poster": {
+      "width": 230,
+      "height": 325
+    },
+    "scene": {
+      "width": 1900,
+      "height": 751
+    }
+  },
+  "dragon-ball": {
+    "poster": {
+      "width": 460,
+      "height": 690
+    },
+    "scene": {
+      "width": 1900,
+      "height": 550
+    }
+  },
+  "wistoria": {
+    "poster": {
+      "width": 460,
+      "height": 651
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "chainsaw-man": {
+    "poster": {
+      "width": 460,
+      "height": 653
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "fullmetal-alchemist": {
+    "poster": {
+      "width": 460,
+      "height": 647
+    },
+    "scene": {
+      "width": 1900,
+      "height": 1188
+    }
+  },
+  "ascendance-bookworm": {
+    "poster": {
+      "width": 460,
+      "height": 652
+    },
+    "scene": {
+      "width": 1900,
+      "height": 485
+    }
+  },
+  "konosuba": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1720,
+      "height": 500
+    }
+  },
+  "overlord": {
+    "poster": {
+      "width": 460,
+      "height": 645
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "naruto": {
+    "poster": {
+      "width": 460,
+      "height": 649
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "wind-breaker": {
+    "poster": {
+      "width": 460,
+      "height": 651
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "attack-on-titan": {
+    "poster": {
+      "width": 460,
+      "height": 636
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "dandadan": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "mob-psycho-100": {
+    "poster": {
+      "width": 460,
+      "height": 649
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "vinland-saga": {
+    "poster": {
+      "width": 460,
+      "height": 649
+    },
+    "scene": {
+      "width": 1900,
+      "height": 550
+    }
+  },
+  "kaguya-sama": {
+    "poster": {
+      "width": 460,
+      "height": 655
+    },
+    "scene": {
+      "width": 1900,
+      "height": 534
+    }
+  },
+  "fruits-basket": {
+    "poster": {
+      "width": 460,
+      "height": 626
+    },
+    "scene": {
+      "width": 1800,
+      "height": 350
+    }
+  },
+  "bocchi-the-rock": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "cowboy-bebop": {
+    "poster": {
+      "width": 460,
+      "height": 640
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "steins-gate": {
+    "poster": {
+      "width": 460,
+      "height": 667
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "code-geass": {
+    "poster": {
+      "width": 460,
+      "height": 654
+    },
+    "scene": {
+      "width": 1600,
+      "height": 465
+    }
+  },
+  "hells-paradise": {
+    "poster": {
+      "width": 460,
+      "height": 657
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "mashle": {
+    "poster": {
+      "width": 460,
+      "height": 650
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "hunter-x-hunter": {
+    "poster": {
+      "width": 460,
+      "height": 651
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  },
+  "assassination-classroom": {
+    "poster": {
+      "width": 460,
+      "height": 647
+    },
+    "scene": {
+      "width": 1900,
+      "height": 400
+    }
+  }
+}

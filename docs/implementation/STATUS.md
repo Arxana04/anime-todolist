@@ -1,5 +1,7 @@
 # Anime Todo upgrade — implementation status
 
+**12 November 2026 update:** The landing has been rebuilt around the user-supplied Anime.mp4, with an active scroll sequence, Three.js effects, and new Clash Display/Satoshi typography. Current implementation and verification: [LANDING_JOURNEY_STATUS.md](LANDING_JOURNEY_STATUS.md). The 1 November notes below are historical; the earlier inactive hero/blocked-video status is superseded.
+
 Updated 1 November 2026. Local preview: http://127.0.0.1:5173/ . The user selected **bright manga / graphic editorial**.
 
 ## Working implementation
