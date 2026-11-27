@@ -1,0 +1,1157 @@
+{
+  "date": "2026-11-12",
+  "worlds": [
+    {
+      "id": "frieren",
+      "title": "Frieren: Beyond Journey\u2019s End",
+      "poster": {
+        "path": "/media/anime/frieren/poster.jpg",
+        "width": 460,
+        "height": 649,
+        "aspect": 0.708783,
+        "bytes": 136267
+      },
+      "scene": {
+        "path": "/media/anime/frieren/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 174631
+      }
+    },
+    {
+      "id": "golden-kamuy",
+      "title": "Golden Kamuy",
+      "poster": {
+        "path": "/media/anime/golden-kamuy/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 113710
+      },
+      "scene": {
+        "path": "/media/anime/golden-kamuy/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 191350
+      }
+    },
+    {
+      "id": "fire-force",
+      "title": "Fire Force",
+      "poster": {
+        "path": "/media/anime/fire-force/poster.jpg",
+        "width": 460,
+        "height": 690,
+        "aspect": 0.666667,
+        "bytes": 181079
+      },
+      "scene": {
+        "path": "/media/anime/fire-force/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 173319
+      }
+    },
+    {
+      "id": "fate-strange-fake",
+      "title": "Fate/strange Fake",
+      "poster": {
+        "path": "/media/anime/fate-strange-fake/poster.jpg",
+        "width": 460,
+        "height": 673,
+        "aspect": 0.683507,
+        "bytes": 338376
+      },
+      "scene": {
+        "path": "/media/anime/fate-strange-fake/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 140289
+      }
+    },
+    {
+      "id": "cheat-skill-another-world",
+      "title": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
+      "poster": {
+        "path": "/media/anime/cheat-skill-another-world/poster.jpg",
+        "width": 460,
+        "height": 649,
+        "aspect": 0.708783,
+        "bytes": 97520
+      },
+      "scene": {
+        "path": "/media/anime/cheat-skill-another-world/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 54267
+      }
+    },
+    {
+      "id": "one-piece",
+      "title": "One Piece",
+      "poster": {
+        "path": "/media/anime/one-piece/poster.jpg",
+        "width": 460,
+        "height": 690,
+        "aspect": 0.666667,
+        "bytes": 157696
+      },
+      "scene": {
+        "path": "/media/anime/one-piece/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 357643
+      }
+    },
+    {
+      "id": "mf-ghost",
+      "title": "MF GHOST",
+      "poster": {
+        "path": "/media/anime/mf-ghost/poster.jpg",
+        "width": 460,
+        "height": 656,
+        "aspect": 0.70122,
+        "bytes": 565469
+      },
+      "scene": {
+        "path": "/media/anime/mf-ghost/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 207093
+      }
+    },
+    {
+      "id": "trigun-stampede",
+      "title": "TRIGUN STAMPEDE",
+      "poster": {
+        "path": "/media/anime/trigun-stampede/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 438883
+      },
+      "scene": {
+        "path": "/media/anime/trigun-stampede/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 130911
+      }
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "title": "JUJUTSU KAISEN",
+      "poster": {
+        "path": "/media/anime/jujutsu-kaisen/poster.jpg",
+        "width": 460,
+        "height": 643,
+        "aspect": 0.715397,
+        "bytes": 144853
+      },
+      "scene": {
+        "path": "/media/anime/jujutsu-kaisen/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 247128
+      }
+    },
+    {
+      "id": "my-hero-academia",
+      "title": "My Hero Academia",
+      "poster": {
+        "path": "/media/anime/my-hero-academia/poster.jpg",
+        "width": 460,
+        "height": 653,
+        "aspect": 0.704441,
+        "bytes": 175500
+      },
+      "scene": {
+        "path": "/media/anime/my-hero-academia/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 201954
+      }
+    },
+    {
+      "id": "to-your-eternity",
+      "title": "To Your Eternity",
+      "poster": {
+        "path": "/media/anime/to-your-eternity/poster.jpg",
+        "width": 460,
+        "height": 651,
+        "aspect": 0.706605,
+        "bytes": 94698
+      },
+      "scene": {
+        "path": "/media/anime/to-your-eternity/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 125222
+      }
+    },
+    {
+      "id": "slime",
+      "title": "That Time I Got Reincarnated as a Slime",
+      "poster": {
+        "path": "/media/anime/slime/poster.jpg",
+        "width": 460,
+        "height": 652,
+        "aspect": 0.705521,
+        "bytes": 113387
+      },
+      "scene": {
+        "path": "/media/anime/slime/scene.jpg",
+        "width": 1900,
+        "height": 396,
+        "aspect": 4.79798,
+        "bytes": 201898
+      }
+    },
+    {
+      "id": "solo-leveling",
+      "title": "Solo Leveling",
+      "poster": {
+        "path": "/media/anime/solo-leveling/poster.jpg",
+        "width": 460,
+        "height": 609,
+        "aspect": 0.755337,
+        "bytes": 505905
+      },
+      "scene": {
+        "path": "/media/anime/solo-leveling/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 222076
+      }
+    },
+    {
+      "id": "classroom-of-the-elite",
+      "title": "Classroom of the Elite",
+      "poster": {
+        "path": "/media/anime/classroom-of-the-elite/poster.jpg",
+        "width": 460,
+        "height": 716,
+        "aspect": 0.642458,
+        "bytes": 143692
+      },
+      "scene": {
+        "path": "/media/anime/classroom-of-the-elite/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 182455
+      }
+    },
+    {
+      "id": "apothecary-diaries",
+      "title": "The Apothecary Diaries",
+      "poster": {
+        "path": "/media/anime/apothecary-diaries/poster.jpg",
+        "width": 460,
+        "height": 653,
+        "aspect": 0.704441,
+        "bytes": 140423
+      },
+      "scene": {
+        "path": "/media/anime/apothecary-diaries/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 81876
+      }
+    },
+    {
+      "id": "black-clover",
+      "title": "Black Clover",
+      "poster": {
+        "path": "/media/anime/black-clover/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 570093
+      },
+      "scene": {
+        "path": "/media/anime/black-clover/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 143001
+      }
+    },
+    {
+      "id": "dr-stone",
+      "title": "Dr. STONE",
+      "poster": {
+        "path": "/media/anime/dr-stone/poster.jpg",
+        "width": 460,
+        "height": 679,
+        "aspect": 0.677467,
+        "bytes": 114319
+      },
+      "scene": {
+        "path": "/media/anime/dr-stone/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 133991
+      }
+    },
+    {
+      "id": "haikyu",
+      "title": "Haikyu!!",
+      "poster": {
+        "path": "/media/anime/haikyu/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 591753
+      },
+      "scene": {
+        "path": "/media/anime/haikyu/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 158100
+      }
+    },
+    {
+      "id": "demon-slayer",
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "poster": {
+        "path": "/media/anime/demon-slayer/poster.jpg",
+        "width": 460,
+        "height": 639,
+        "aspect": 0.719875,
+        "bytes": 69697
+      },
+      "scene": {
+        "path": "/media/anime/demon-slayer/scene.jpg",
+        "width": 1800,
+        "height": 550,
+        "aspect": 3.272727,
+        "bytes": 362165
+      }
+    },
+    {
+      "id": "dragon-ball-z",
+      "title": "Dragon Ball Z",
+      "poster": {
+        "path": "/media/anime/dragon-ball-z/poster.jpg",
+        "width": 460,
+        "height": 690,
+        "aspect": 0.666667,
+        "bytes": 588782
+      },
+      "scene": {
+        "path": "/media/anime/dragon-ball-z/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 268353
+      }
+    },
+    {
+      "id": "gachiakuta",
+      "title": "Gachiakuta",
+      "poster": {
+        "path": "/media/anime/gachiakuta/poster.jpg",
+        "width": 460,
+        "height": 598,
+        "aspect": 0.769231,
+        "bytes": 171615
+      },
+      "scene": {
+        "path": "/media/anime/gachiakuta/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 301500
+      }
+    },
+    {
+      "id": "beginning-after-end",
+      "title": "The Beginning After the End",
+      "poster": {
+        "path": "/media/anime/beginning-after-end/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 118930
+      },
+      "scene": {
+        "path": "/media/anime/beginning-after-end/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 104497
+      }
+    },
+    {
+      "id": "mushoku-tensei",
+      "title": "Mushoku Tensei: Jobless Reincarnation",
+      "poster": {
+        "path": "/media/anime/mushoku-tensei/poster.jpg",
+        "width": 460,
+        "height": 647,
+        "aspect": 0.710974,
+        "bytes": 99135
+      },
+      "scene": {
+        "path": "/media/anime/mushoku-tensei/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 185813
+      }
+    },
+    {
+      "id": "naruto-shippuden",
+      "title": "Naruto Shippuden",
+      "poster": {
+        "path": "/media/anime/naruto-shippuden/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 552378
+      },
+      "scene": {
+        "path": "/media/anime/naruto-shippuden/scene.jpg",
+        "width": 1721,
+        "height": 391,
+        "aspect": 4.401535,
+        "bytes": 69904
+      }
+    },
+    {
+      "id": "tsukimichi",
+      "title": "TSUKIMICHI -Moonlit Fantasy-",
+      "poster": {
+        "path": "/media/anime/tsukimichi/poster.jpg",
+        "width": 460,
+        "height": 648,
+        "aspect": 0.709877,
+        "bytes": 84294
+      },
+      "scene": {
+        "path": "/media/anime/tsukimichi/scene.jpg",
+        "width": 1900,
+        "height": 401,
+        "aspect": 4.738155,
+        "bytes": 169369
+      }
+    },
+    {
+      "id": "shield-hero",
+      "title": "The Rising of the Shield Hero",
+      "poster": {
+        "path": "/media/anime/shield-hero/poster.jpg",
+        "width": 460,
+        "height": 698,
+        "aspect": 0.659026,
+        "bytes": 108801
+      },
+      "scene": {
+        "path": "/media/anime/shield-hero/scene.jpg",
+        "width": 1500,
+        "height": 500,
+        "aspect": 3.0,
+        "bytes": 199233
+      }
+    },
+    {
+      "id": "blue-lock",
+      "title": "BLUE LOCK",
+      "poster": {
+        "path": "/media/anime/blue-lock/poster.jpg",
+        "width": 460,
+        "height": 644,
+        "aspect": 0.714286,
+        "bytes": 556318
+      },
+      "scene": {
+        "path": "/media/anime/blue-lock/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 160896
+      }
+    },
+    {
+      "id": "rezero",
+      "title": "Re:ZERO -Starting Life in Another World-",
+      "poster": {
+        "path": "/media/anime/rezero/poster.jpg",
+        "width": 460,
+        "height": 632,
+        "aspect": 0.727848,
+        "bytes": 116698
+      },
+      "scene": {
+        "path": "/media/anime/rezero/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 183271
+      }
+    },
+    {
+      "id": "fairy-tail",
+      "title": "Fairy Tail",
+      "poster": {
+        "path": "/media/anime/fairy-tail/poster.jpg",
+        "width": 230,
+        "height": 345,
+        "aspect": 0.666667,
+        "bytes": 141428
+      },
+      "scene": {
+        "path": "/media/anime/fairy-tail/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 241304
+      }
+    },
+    {
+      "id": "your-lie-in-april",
+      "title": "Your lie in April",
+      "poster": {
+        "path": "/media/anime/your-lie-in-april/poster.jpg",
+        "width": 460,
+        "height": 658,
+        "aspect": 0.699088,
+        "bytes": 566761
+      },
+      "scene": {
+        "path": "/media/anime/your-lie-in-april/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 177071
+      }
+    },
+    {
+      "id": "jojos-bizarre-adventure",
+      "title": "JoJo\u2019s Bizarre Adventure",
+      "poster": {
+        "path": "/media/anime/jojos-bizarre-adventure/poster.jpg",
+        "width": 460,
+        "height": 690,
+        "aspect": 0.666667,
+        "bytes": 77051
+      },
+      "scene": {
+        "path": "/media/anime/jojos-bizarre-adventure/scene.jpg",
+        "width": 1720,
+        "height": 500,
+        "aspect": 3.44,
+        "bytes": 347867
+      }
+    },
+    {
+      "id": "shangri-la-frontier",
+      "title": "Shangri-La Frontier",
+      "poster": {
+        "path": "/media/anime/shangri-la-frontier/poster.jpg",
+        "width": 460,
+        "height": 649,
+        "aspect": 0.708783,
+        "bytes": 110966
+      },
+      "scene": {
+        "path": "/media/anime/shangri-la-frontier/scene.jpg",
+        "width": 1900,
+        "height": 487,
+        "aspect": 3.901437,
+        "bytes": 200963
+      }
+    },
+    {
+      "id": "iruma-kun",
+      "title": "Welcome to Demon School! Iruma-kun",
+      "poster": {
+        "path": "/media/anime/iruma-kun/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 142452
+      },
+      "scene": {
+        "path": "/media/anime/iruma-kun/scene.jpg",
+        "width": 1900,
+        "height": 600,
+        "aspect": 3.166667,
+        "bytes": 314713
+      }
+    },
+    {
+      "id": "spy-family",
+      "title": "SPY x FAMILY",
+      "poster": {
+        "path": "/media/anime/spy-family/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 109227
+      },
+      "scene": {
+        "path": "/media/anime/spy-family/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 121182
+      }
+    },
+    {
+      "id": "dragon-ball-super",
+      "title": "Dragon Ball Super",
+      "poster": {
+        "path": "/media/anime/dragon-ball-super/poster.jpg",
+        "width": 460,
+        "height": 658,
+        "aspect": 0.699088,
+        "bytes": 143456
+      },
+      "scene": {
+        "path": "/media/anime/dragon-ball-super/scene.jpg",
+        "width": 1500,
+        "height": 316,
+        "aspect": 4.746835,
+        "bytes": 187797
+      }
+    },
+    {
+      "id": "soul-eater",
+      "title": "Soul Eater",
+      "poster": {
+        "path": "/media/anime/soul-eater/poster.jpg",
+        "width": 460,
+        "height": 690,
+        "aspect": 0.666667,
+        "bytes": 311451
+      },
+      "scene": {
+        "path": "/media/anime/soul-eater/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 222858
+      }
+    },
+    {
+      "id": "my-dress-up-darling",
+      "title": "My Dress-Up Darling",
+      "poster": {
+        "path": "/media/anime/my-dress-up-darling/poster.jpg",
+        "width": 460,
+        "height": 648,
+        "aspect": 0.709877,
+        "bytes": 81807
+      },
+      "scene": {
+        "path": "/media/anime/my-dress-up-darling/scene.jpg",
+        "width": 1900,
+        "height": 401,
+        "aspect": 4.738155,
+        "bytes": 156046
+      }
+    },
+    {
+      "id": "sword-art-online",
+      "title": "Sword Art Online",
+      "poster": {
+        "path": "/media/anime/sword-art-online/poster.jpg",
+        "width": 460,
+        "height": 652,
+        "aspect": 0.705521,
+        "bytes": 106572
+      },
+      "scene": {
+        "path": "/media/anime/sword-art-online/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 218472
+      }
+    },
+    {
+      "id": "horimiya",
+      "title": "Horimiya",
+      "poster": {
+        "path": "/media/anime/horimiya/poster.jpg",
+        "width": 460,
+        "height": 669,
+        "aspect": 0.687593,
+        "bytes": 107385
+      },
+      "scene": {
+        "path": "/media/anime/horimiya/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 281173
+      }
+    },
+    {
+      "id": "kaiju-no-8",
+      "title": "Kaiju No. 8",
+      "poster": {
+        "path": "/media/anime/kaiju-no-8/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 129859
+      },
+      "scene": {
+        "path": "/media/anime/kaiju-no-8/scene.jpg",
+        "width": 1900,
+        "height": 401,
+        "aspect": 4.738155,
+        "bytes": 222222
+      }
+    },
+    {
+      "id": "tokyo-ghoul",
+      "title": "Tokyo Ghoul",
+      "poster": {
+        "path": "/media/anime/tokyo-ghoul/poster.jpg",
+        "width": 230,
+        "height": 325,
+        "aspect": 0.707692,
+        "bytes": 51280
+      },
+      "scene": {
+        "path": "/media/anime/tokyo-ghoul/scene.jpg",
+        "width": 1900,
+        "height": 751,
+        "aspect": 2.52996,
+        "bytes": 206181
+      }
+    },
+    {
+      "id": "dragon-ball",
+      "title": "Dragon Ball",
+      "poster": {
+        "path": "/media/anime/dragon-ball/poster.jpg",
+        "width": 460,
+        "height": 690,
+        "aspect": 0.666667,
+        "bytes": 521060
+      },
+      "scene": {
+        "path": "/media/anime/dragon-ball/scene.jpg",
+        "width": 1900,
+        "height": 550,
+        "aspect": 3.454545,
+        "bytes": 566569
+      }
+    },
+    {
+      "id": "wistoria",
+      "title": "Wistoria: Wand and Sword",
+      "poster": {
+        "path": "/media/anime/wistoria/poster.jpg",
+        "width": 460,
+        "height": 651,
+        "aspect": 0.706605,
+        "bytes": 115530
+      },
+      "scene": {
+        "path": "/media/anime/wistoria/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 209979
+      }
+    },
+    {
+      "id": "chainsaw-man",
+      "title": "Chainsaw Man",
+      "poster": {
+        "path": "/media/anime/chainsaw-man/poster.jpg",
+        "width": 460,
+        "height": 653,
+        "aspect": 0.704441,
+        "bytes": 550035
+      },
+      "scene": {
+        "path": "/media/anime/chainsaw-man/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 209406
+      }
+    },
+    {
+      "id": "fullmetal-alchemist",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "poster": {
+        "path": "/media/anime/fullmetal-alchemist/poster.jpg",
+        "width": 460,
+        "height": 647,
+        "aspect": 0.710974,
+        "bytes": 79247
+      },
+      "scene": {
+        "path": "/media/anime/fullmetal-alchemist/scene.jpg",
+        "width": 1900,
+        "height": 1188,
+        "aspect": 1.599327,
+        "bytes": 413671
+      }
+    },
+    {
+      "id": "ascendance-bookworm",
+      "title": "Ascendance of a Bookworm",
+      "poster": {
+        "path": "/media/anime/ascendance-bookworm/poster.jpg",
+        "width": 460,
+        "height": 652,
+        "aspect": 0.705521,
+        "bytes": 157805
+      },
+      "scene": {
+        "path": "/media/anime/ascendance-bookworm/scene.jpg",
+        "width": 1900,
+        "height": 485,
+        "aspect": 3.917526,
+        "bytes": 372665
+      }
+    },
+    {
+      "id": "konosuba",
+      "title": "KONOSUBA -God\u2019s blessing on this wonderful world!",
+      "poster": {
+        "path": "/media/anime/konosuba/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 591443
+      },
+      "scene": {
+        "path": "/media/anime/konosuba/scene.jpg",
+        "width": 1720,
+        "height": 500,
+        "aspect": 3.44,
+        "bytes": 316274
+      }
+    },
+    {
+      "id": "overlord",
+      "title": "Overlord",
+      "poster": {
+        "path": "/media/anime/overlord/poster.jpg",
+        "width": 460,
+        "height": 645,
+        "aspect": 0.713178,
+        "bytes": 91914
+      },
+      "scene": {
+        "path": "/media/anime/overlord/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 181235
+      }
+    },
+    {
+      "id": "naruto",
+      "title": "Naruto",
+      "poster": {
+        "path": "/media/anime/naruto/poster.jpg",
+        "width": 460,
+        "height": 649,
+        "aspect": 0.708783,
+        "bytes": 123973
+      },
+      "scene": {
+        "path": "/media/anime/naruto/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 183030
+      }
+    },
+    {
+      "id": "wind-breaker",
+      "title": "WIND BREAKER",
+      "poster": {
+        "path": "/media/anime/wind-breaker/poster.jpg",
+        "width": 460,
+        "height": 651,
+        "aspect": 0.706605,
+        "bytes": 105466
+      },
+      "scene": {
+        "path": "/media/anime/wind-breaker/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 143669
+      }
+    },
+    {
+      "id": "attack-on-titan",
+      "title": "Attack on Titan",
+      "poster": {
+        "path": "/media/anime/attack-on-titan/poster.jpg",
+        "width": 460,
+        "height": 636,
+        "aspect": 0.72327,
+        "bytes": 83333
+      },
+      "scene": {
+        "path": "/media/anime/attack-on-titan/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 167942
+      }
+    },
+    {
+      "id": "dandadan",
+      "title": "DAN DA DAN",
+      "poster": {
+        "path": "/media/anime/dandadan/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 119040
+      },
+      "scene": {
+        "path": "/media/anime/dandadan/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 227451
+      }
+    },
+    {
+      "id": "mob-psycho-100",
+      "title": "Mob Psycho 100",
+      "poster": {
+        "path": "/media/anime/mob-psycho-100/poster.jpg",
+        "width": 460,
+        "height": 649,
+        "aspect": 0.708783,
+        "bytes": 209349
+      },
+      "scene": {
+        "path": "/media/anime/mob-psycho-100/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 92992
+      }
+    },
+    {
+      "id": "vinland-saga",
+      "title": "VINLAND SAGA",
+      "poster": {
+        "path": "/media/anime/vinland-saga/poster.jpg",
+        "width": 460,
+        "height": 649,
+        "aspect": 0.708783,
+        "bytes": 103714
+      },
+      "scene": {
+        "path": "/media/anime/vinland-saga/scene.jpg",
+        "width": 1900,
+        "height": 550,
+        "aspect": 3.454545,
+        "bytes": 250033
+      }
+    },
+    {
+      "id": "kaguya-sama",
+      "title": "Kaguya-sama: Love is War",
+      "poster": {
+        "path": "/media/anime/kaguya-sama/poster.jpg",
+        "width": 460,
+        "height": 655,
+        "aspect": 0.70229,
+        "bytes": 103546
+      },
+      "scene": {
+        "path": "/media/anime/kaguya-sama/scene.jpg",
+        "width": 1900,
+        "height": 534,
+        "aspect": 3.558052,
+        "bytes": 74740
+      }
+    },
+    {
+      "id": "fruits-basket",
+      "title": "Fruits Basket (2019)",
+      "poster": {
+        "path": "/media/anime/fruits-basket/poster.jpg",
+        "width": 460,
+        "height": 626,
+        "aspect": 0.734824,
+        "bytes": 137819
+      },
+      "scene": {
+        "path": "/media/anime/fruits-basket/scene.jpg",
+        "width": 1800,
+        "height": 350,
+        "aspect": 5.142857,
+        "bytes": 160068
+      }
+    },
+    {
+      "id": "bocchi-the-rock",
+      "title": "BOCCHI THE ROCK!",
+      "poster": {
+        "path": "/media/anime/bocchi-the-rock/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 543866
+      },
+      "scene": {
+        "path": "/media/anime/bocchi-the-rock/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 221999
+      }
+    },
+    {
+      "id": "cowboy-bebop",
+      "title": "Cowboy Bebop",
+      "poster": {
+        "path": "/media/anime/cowboy-bebop/poster.jpg",
+        "width": 460,
+        "height": 640,
+        "aspect": 0.71875,
+        "bytes": 489507
+      },
+      "scene": {
+        "path": "/media/anime/cowboy-bebop/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 282187
+      }
+    },
+    {
+      "id": "steins-gate",
+      "title": "STEINS;GATE",
+      "poster": {
+        "path": "/media/anime/steins-gate/poster.jpg",
+        "width": 460,
+        "height": 667,
+        "aspect": 0.689655,
+        "bytes": 89300
+      },
+      "scene": {
+        "path": "/media/anime/steins-gate/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 241424
+      }
+    },
+    {
+      "id": "code-geass",
+      "title": "Code Geass",
+      "poster": {
+        "path": "/media/anime/code-geass/poster.jpg",
+        "width": 460,
+        "height": 654,
+        "aspect": 0.703364,
+        "bytes": 146530
+      },
+      "scene": {
+        "path": "/media/anime/code-geass/scene.jpg",
+        "width": 1600,
+        "height": 465,
+        "aspect": 3.44086,
+        "bytes": 175356
+      }
+    },
+    {
+      "id": "hells-paradise",
+      "title": "Hell\u2019s Paradise",
+      "poster": {
+        "path": "/media/anime/hells-paradise/poster.jpg",
+        "width": 460,
+        "height": 657,
+        "aspect": 0.700152,
+        "bytes": 122089
+      },
+      "scene": {
+        "path": "/media/anime/hells-paradise/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 97475
+      }
+    },
+    {
+      "id": "mashle",
+      "title": "MASHLE: MAGIC AND MUSCLES",
+      "poster": {
+        "path": "/media/anime/mashle/poster.jpg",
+        "width": 460,
+        "height": 650,
+        "aspect": 0.707692,
+        "bytes": 468037
+      },
+      "scene": {
+        "path": "/media/anime/mashle/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 147290
+      }
+    },
+    {
+      "id": "hunter-x-hunter",
+      "title": "Hunter x Hunter",
+      "poster": {
+        "path": "/media/anime/hunter-x-hunter/poster.jpg",
+        "width": 460,
+        "height": 651,
+        "aspect": 0.706605,
+        "bytes": 691148
+      },
+      "scene": {
+        "path": "/media/anime/hunter-x-hunter/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 275716
+      }
+    },
+    {
+      "id": "assassination-classroom",
+      "title": "Assassination Classroom",
+      "poster": {
+        "path": "/media/anime/assassination-classroom/poster.jpg",
+        "width": 460,
+        "height": 647,
+        "aspect": 0.710974,
+        "bytes": 136370
+      },
+      "scene": {
+        "path": "/media/anime/assassination-classroom/scene.jpg",
+        "width": 1900,
+        "height": 400,
+        "aspect": 4.75,
+        "bytes": 113550
+      }
+    }
+  ]
+}

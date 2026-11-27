@@ -1,0 +1,20 @@
+/* Full, source-matched posters in two composited slots. HTML logo/copy stays
+   outside this surface and above it in the sign-in composition. */
+.poster-slideshow { position:absolute; inset:0; overflow:hidden; isolation:isolate; background:#0a1017; }
+.poster-slide { position:absolute; inset:0; opacity:0; z-index:0; overflow:hidden; transition:opacity 1100ms cubic-bezier(.4,0,.2,1); }
+.poster-slide:before { content:""; position:absolute; inset:-8%; z-index:-1; background-image:var(--poster-image); background-size:cover; background-position:center; filter:blur(22px) brightness(.36) saturate(.8); }
+.poster-slide>img { display:block; position:relative; width:100%; height:100%; max-width:none; object-fit:contain; object-position:center; opacity:1; filter:none; }
+.poster-slide.is-active { opacity:1; z-index:1; }
+.poster-slide.is-entering { opacity:1; z-index:2; }
+.poster-slideshow-shade { position:absolute; inset:0; z-index:3; pointer-events:none; background:linear-gradient(180deg,#07101a55,transparent 24%,transparent 52%,#07101aa6 78%,#07101ae0); }
+.poster-slideshow-motion { position:absolute; top:25px; right:24px; z-index:5; display:flex; align-items:center; justify-content:center; gap:7px; min-height:38px; padding:9px 12px; border:1px solid #ffffff3b; border-radius:4px; background:#0a1119b8; backdrop-filter:blur(12px); color:#f1eee5; font-family:Satoshi,Arial,sans-serif; font-size:10px; line-height:1; cursor:pointer; }
+.poster-slideshow-motion:hover { background:#1b293bd9; border-color:#ffffff73; }
+.poster-slideshow-motion:focus-visible { outline:2px solid #f0bba3; outline-offset:4px; }
+.poster-motion-icon { font-size:14px; line-height:1; }
+.poster-slideshow-motion:disabled { cursor:default; opacity:.75; }
+@media(max-width:739px) {
+  .poster-slideshow-motion { top:17px; right:17px; min-height:36px; padding:9px 11px; }
+  .poster-slideshow-shade { background:linear-gradient(180deg,#07101a40,transparent 28%,#07101a99 75%,#07101ade); }
+}
+@media(prefers-reduced-motion:reduce) { .poster-slide { transition:none; } }
+.poster-slideshow[data-motion="paused"] .poster-slide { transition:none; }
